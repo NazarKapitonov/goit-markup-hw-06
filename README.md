@@ -1,1 +1,1 @@
-Homework goit-markup-hw-05/
+Homework goit-markup-hw-06/
