@@ -753,7 +753,9 @@ input[type='checkbox']:checked + .privacy-form > .checkbox-form {
   border: none;
   font-weight: 500;
 }
-/* mobile view */
+/* MOBILE VIEW */
+
+/* Section Web Studio */
 @media (min-width: 320px) and (max-width: 767px) {
   .container {
     width: 320px;
@@ -779,5 +781,19 @@ input[type='checkbox']:checked + .privacy-form > .checkbox-form {
   }
   .title {
     font-size: 36px;
+  }
+}
+/* Section Our Team */
+@media (min-width: 320px) and (max-width: 767px) {
+  .team-list {
+    flex-direction: column;
+    gap: 72px;
+  }
+  .team-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
