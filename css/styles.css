@@ -783,8 +783,13 @@ input[type='checkbox']:checked + .privacy-form > .checkbox-form {
     font-size: 36px;
   }
 }
+
 /* Section Our Team */
 @media (min-width: 320px) and (max-width: 767px) {
+  .team-section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
   .team-list {
     flex-direction: column;
     gap: 72px;
@@ -795,5 +800,27 @@ input[type='checkbox']:checked + .privacy-form > .checkbox-form {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+}
+
+/* Section Our Portfolio */
+@media (min-width: 320px) and (max-width: 767px) {
+  .portfolio-section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .portfolio-list {
+    flex-direction: column;
+    gap: 72px;
+  }
+  .portfolio-items {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .portfolio-items-id {
+    width: 100%;
   }
 }
