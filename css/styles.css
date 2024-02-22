@@ -753,8 +753,30 @@ input[type='checkbox']:checked + .privacy-form > .checkbox-form {
   border: none;
   font-weight: 500;
 }
+.burger-button {
+  display: none;
+}
 /* MOBILE VIEW */
 
+/* Mobile Header */
+@media (min-width: 320px) and (max-width: 767px) {
+  header {
+    height: 56px;
+    padding: 16px 0;
+  }
+  .container-flex {
+    justify-content: space-between;
+  }
+  .nav-list,
+  .header-adress {
+    display: none;
+  }
+  .burger-button {
+    background-color: transparent;
+    border: none;
+    display: block;
+  }
+}
 /* Section Web Studio */
 @media (min-width: 320px) and (max-width: 767px) {
   .container {
