@@ -753,3 +753,31 @@ input[type='checkbox']:checked + .privacy-form > .checkbox-form {
   border: none;
   font-weight: 500;
 }
+/* mobile view */
+@media (min-width: 320px) and (max-width: 767px) {
+  .container {
+    width: 320px;
+    padding: 0 16px;
+  }
+  .studio-section {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .advantages-list {
+    flex-direction: column;
+    gap: 72px;
+  }
+  .advantages-items {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .section-icon {
+    display: none;
+  }
+  .title {
+    font-size: 36px;
+  }
+}
