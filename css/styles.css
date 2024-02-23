@@ -778,7 +778,6 @@ input[type='checkbox']:checked + .privacy-form > .checkbox-form {
   position: absolute;
   top: 24px;
   right: 24px;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -786,6 +785,7 @@ input[type='checkbox']:checked + .privacy-form > .checkbox-form {
   height: 32px;
   border-radius: 50%;
   border: 1px solid #111;
+  background-color: transparent;
 }
 .mobile-menu-icon {
   stroke: #111;
