@@ -984,4 +984,11 @@ input[type='checkbox']:checked + .privacy-form > .checkbox-form {
   .right-content {
     margin-right: unset;
   }
+  /* Section Porfolio */
+  .portfolio-list {
+    row-gap: 72px;
+  }
+  .portfolio-items {
+    width: calc((100% - 2 * 24px) / 2);
+  }
 }
