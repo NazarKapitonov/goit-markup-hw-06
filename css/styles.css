@@ -991,4 +991,12 @@ input[type='checkbox']:checked + .privacy-form > .checkbox-form {
   .portfolio-items {
     width: calc((100% - 2 * 24px) / 2);
   }
+  .team-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 64px 24px;
+  }
+  .team-item {
+    width: 264px;
+  }
 }
