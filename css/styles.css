@@ -58,7 +58,7 @@ header {
 
 .container {
   margin: 0 auto;
-  max-width: 1440px;
+  /* max-width: 1440px; */
   width: 1158px;
   flex-shrink: 0;
   padding: 0 15px;
@@ -269,6 +269,7 @@ header {
 .subtitle {
   display: flex;
   color: #434455;
+  font-size: 16px;
   font-weight: 400;
   font-style: normal;
   line-height: 1.5;
@@ -952,5 +953,26 @@ input[type='checkbox']:checked + .privacy-form > .checkbox-form {
   /* Mobile Modal Menu */
   .modal {
     width: 288px;
+  }
+}
+
+/* Tablet View */
+@media (min-width: 768px) and (max-width: 1157px) {
+  .container {
+    width: 768px;
+    padding: 0 16px;
+  }
+  .header-adress {
+    margin-left: 122px;
+  }
+  .logo {
+    margin-right: 120px;
+  }
+  .address-items {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .subtitle {
+    font-size: 12px;
   }
 }
