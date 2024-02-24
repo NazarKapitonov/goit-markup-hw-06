@@ -999,4 +999,22 @@ input[type='checkbox']:checked + .privacy-form > .checkbox-form {
   .team-item {
     width: 264px;
   }
+  /* Tablet Web Studio */
+  .advantages-list {
+    flex-wrap: wrap;
+    gap: 72px 24px;
+  }
+  .advantages-items {
+    /* width: 356px; */
+    width: calc((100% - 3 * 24px) / 2);
+  }
+  .section-icon {
+    display: none;
+  }
+  .title {
+    font-size: 36px;
+  }
+  .advantages-items .subtitle {
+    font-size: 16px;
+  }
 }
