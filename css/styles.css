@@ -975,4 +975,13 @@ input[type='checkbox']:checked + .privacy-form > .checkbox-form {
   .subtitle {
     font-size: 12px;
   }
+  .footer-container {
+    flex-wrap: wrap;
+    gap: 72px 24px;
+    padding: 96px 108px;
+  }
+  .left-content,
+  .right-content {
+    margin-right: unset;
+  }
 }
