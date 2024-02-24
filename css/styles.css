@@ -156,7 +156,7 @@ header {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
+    url(../images/people-office\ 1_desk@1x.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -846,11 +846,30 @@ input[type='checkbox']:checked + .privacy-form > .checkbox-form {
   .header-adress {
     display: none;
   }
+  .business-section {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg_mob@1x.jpg);
+  }
   .burger-button {
     background-color: transparent;
     border: none;
     display: block;
   }
+}
+@media (min-resolution: 192dpi) {
+  .business-section {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg_mob@2x.jpg);
+  }
+
   /* Section Web Studio */
   .container {
     width: 320px;
@@ -968,6 +987,24 @@ input[type='checkbox']:checked + .privacy-form > .checkbox-form {
   .logo {
     margin-right: 120px;
   }
+  .business-section {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg_tab@1x.jpg);
+  }
+}
+@media (min-resolution: 192dpi) {
+  .business-section {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg_tab@2x.jpg);
+  }
   .address-items {
     flex-direction: column;
     gap: 16px;
@@ -1005,7 +1042,6 @@ input[type='checkbox']:checked + .privacy-form > .checkbox-form {
     gap: 72px 24px;
   }
   .advantages-items {
-    /* width: 356px; */
     width: calc((100% - 3 * 24px) / 2);
   }
   .section-icon {
@@ -1016,5 +1052,26 @@ input[type='checkbox']:checked + .privacy-form > .checkbox-form {
   }
   .advantages-items .subtitle {
     font-size: 16px;
+  }
+}
+/* Desktop section Hero */
+@media (min-width: 1158px) {
+  .business-section {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office\ 1_desk@1x.jpg);
+  }
+}
+@media (min-resolution: 192dpi) {
+  .business-section {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office\ 1_desk@2x.jpg);
   }
 }
