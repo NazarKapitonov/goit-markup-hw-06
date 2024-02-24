@@ -963,7 +963,7 @@ input[type='checkbox']:checked + .privacy-form > .checkbox-form {
     width: 288px;
   }
 }
-@media (min-resolution: 192dpi) {
+@media (min-width: 320px) and (min-resolution: 192dpi) {
   .business-section {
     background-image: linear-gradient(
         to bottom,
@@ -1043,7 +1043,7 @@ input[type='checkbox']:checked + .privacy-form > .checkbox-form {
     font-size: 16px;
   }
 }
-@media (min-resolution: 192dpi) {
+@media (min-width: 768px) and (min-resolution: 192dpi) {
   .business-section {
     background-image: linear-gradient(
         to bottom,
@@ -1052,6 +1052,7 @@ input[type='checkbox']:checked + .privacy-form > .checkbox-form {
       ),
       url(../images/Dark-bg_tab@2x.jpg);
   }
+}
 /* Desktop section Hero */
 @media (min-width: 1158px) {
   .business-section {
@@ -1063,7 +1064,7 @@ input[type='checkbox']:checked + .privacy-form > .checkbox-form {
       url(../images/people-office\ 1_desk@1x.jpg);
   }
 }
-@media (min-resolution: 192dpi) {
+@media (min-width: 1158px) and (min-resolution: 192dpi) {
   .business-section {
     background-image: linear-gradient(
         to bottom,
