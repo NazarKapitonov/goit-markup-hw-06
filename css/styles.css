@@ -859,17 +859,6 @@ input[type='checkbox']:checked + .privacy-form > .checkbox-form {
     border: none;
     display: block;
   }
-}
-@media (min-resolution: 192dpi) {
-  .business-section {
-    background-image: linear-gradient(
-        to bottom,
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/Dark-bg_mob@2x.jpg);
-  }
-
   /* Section Web Studio */
   .container {
     width: 320px;
@@ -974,6 +963,16 @@ input[type='checkbox']:checked + .privacy-form > .checkbox-form {
     width: 288px;
   }
 }
+@media (min-resolution: 192dpi) {
+  .business-section {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg_mob@2x.jpg);
+  }
+}
 
 /* Tablet View */
 @media (min-width: 768px) and (max-width: 1157px) {
@@ -994,16 +993,6 @@ input[type='checkbox']:checked + .privacy-form > .checkbox-form {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/Dark-bg_tab@1x.jpg);
-  }
-}
-@media (min-resolution: 192dpi) {
-  .business-section {
-    background-image: linear-gradient(
-        to bottom,
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/Dark-bg_tab@2x.jpg);
   }
   .address-items {
     flex-direction: column;
@@ -1054,6 +1043,15 @@ input[type='checkbox']:checked + .privacy-form > .checkbox-form {
     font-size: 16px;
   }
 }
+@media (min-resolution: 192dpi) {
+  .business-section {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Dark-bg_tab@2x.jpg);
+  }
 /* Desktop section Hero */
 @media (min-width: 1158px) {
   .business-section {
