@@ -850,9 +850,7 @@ input[type='checkbox']:checked + .privacy-form > .checkbox-form {
     border: none;
     display: block;
   }
-}
-/* Section Web Studio */
-@media (min-width: 320px) and (max-width: 767px) {
+  /* Section Web Studio */
   .container {
     width: 320px;
     padding: 0 16px;
@@ -878,10 +876,7 @@ input[type='checkbox']:checked + .privacy-form > .checkbox-form {
   .title {
     font-size: 36px;
   }
-}
-
-/* Section Our Team */
-@media (min-width: 320px) and (max-width: 767px) {
+  /* Section Our Team */
   .team-section {
     padding-top: 96px;
     padding-bottom: 96px;
@@ -897,10 +892,7 @@ input[type='checkbox']:checked + .privacy-form > .checkbox-form {
     align-items: center;
     justify-content: center;
   }
-}
-
-/* Section Our Portfolio */
-@media (min-width: 320px) and (max-width: 767px) {
+  /* Section Our Portfolio */
   .portfolio-section {
     padding-top: 96px;
     padding-bottom: 96px;
@@ -919,10 +911,7 @@ input[type='checkbox']:checked + .privacy-form > .checkbox-form {
   .portfolio-items-id {
     width: 100%;
   }
-}
-
-/* Mobile Footer */
-@media (min-width: 320px) and (max-width: 767px) {
+  /* Mobile Footer */
   .footer {
     padding-top: 96px;
     padding-bottom: 96px;
@@ -959,5 +948,9 @@ input[type='checkbox']:checked + .privacy-form > .checkbox-form {
   }
   .subscribe-input {
     min-width: 288px;
+  }
+  /* Mobile Modal Menu */
+  .modal {
+    width: 288px;
   }
 }
